@@ -9,7 +9,6 @@ while (choose1!='0' and choose1!='2' and choose1!='5'):
 while (player1!=8 and player2!=8):
 	choose1=int(choose1)
 	temp=random.randint(0,2)
-	print("\ntemp: "+str(temp)+"\n")
 	if temp==0:
 		print("玩家2出石頭")
 		choose2=0
